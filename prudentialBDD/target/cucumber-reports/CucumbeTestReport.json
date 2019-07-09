@@ -1,0 +1,412 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Lables on Home page",
+        "description": "",
+        "id": "verify-lables;verify-lables-on-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8872843057,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be on Home page",
+            "match": {
+              "location": "WeatherInfoSteps.user_should_be_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136673319,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "# When Weather Info page displayed"
+              }
+            ],
+            "line": 7,
+            "name": "Verify Lable Weather display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Weather_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51450895,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Lable Map display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Map_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45643106,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Lable Guid display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Guid_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33739672,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify Lable API display",
+            "match": {
+              "location": "LableSteps.verify_Lable_API_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43963746,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify Lable Price display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Price_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37472153,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify Lable Partners display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Partners_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31067600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify Lable Station display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Station_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31694516,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify Lable Widgets display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Widgets_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31519298,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify Lable Blog display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Blog_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29749484,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify Lable OpenWeather Logo display",
+            "match": {
+              "location": "LableSteps.verify_Lable_OpenWeather_Logo_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30556169,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify Lable Sign In display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Sign_In_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35565806,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify Lable Sign Up display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Sign_Up_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28195279,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify Lable Support Center display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Support_Center_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28212346,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify Lable Celcius Slide button display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Celcius_Slide_button_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31716134,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify Lable Fahrenheit Slide button display",
+            "match": {
+              "location": "LableSteps.verify_Lable_Fahrenheit_Slide_button_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Lables",
+    "description": "",
+    "id": "verify-lables",
+    "keyword": "Feature",
+    "uri": "verifyLables.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Get the City Weather Infomation",
+        "description": "",
+        "id": "weather-details;get-the-city-weather-infomation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10127739485,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be on Home page",
+            "match": {
+              "location": "WeatherInfoSteps.user_should_be_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147886691,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "# When Weather Info page displayed"
+              }
+            ],
+            "line": 7,
+            "name": "Enter the Valid City Name \"Mumbai\" In Search filed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mumbai",
+                  "offset": 27
+                }
+              ],
+              "location": "WeatherInfoSteps.enter_the_Valid_City_Name_In_Search_filed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4197996714,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "WeatherInfoSteps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1189258578,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the City Name \"Mumbai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mumbai",
+                  "offset": 22
+                }
+              ],
+              "location": "WeatherInfoSteps.verify_the_City_Name(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70665691,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify Weather detail display",
+            "match": {
+              "location": "WeatherInfoSteps.verify_Weather_detail_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Get the City Weather Infomation",
+        "description": "",
+        "id": "weather-details;get-the-city-weather-infomation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11157192009,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be on Home page",
+            "match": {
+              "location": "WeatherInfoSteps.user_should_be_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116411766,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#When Weather Info page displayed"
+              }
+            ],
+            "line": 16,
+            "name": "Enter the Invalid City Name \"testxyz\" In Search filed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testxyz",
+                  "offset": 29
+                }
+              ],
+              "location": "WeatherInfoSteps.enter_the_Invalid_City_Name_In_Search_filed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4783809645,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "WeatherInfoSteps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258493513,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the search result \"not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "not found",
+                  "offset": 26
+                }
+              ],
+              "location": "WeatherInfoSteps.verify_the_search_result(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "Weather Details",
+    "description": "",
+    "id": "weather-details",
+    "keyword": "Feature",
+    "uri": "weatherInfo.feature"
+  }
+]
